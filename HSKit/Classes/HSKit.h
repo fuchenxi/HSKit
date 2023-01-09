@@ -8,5 +8,6 @@
 #ifndef HSKit_h
 #define HSKit_h
 
+#import "HSKitExtensions.h"
 
 #endif /* HSKit_h */
