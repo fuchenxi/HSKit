@@ -12,7 +12,7 @@
 /// 初始化一个 Label
 /// @param font 字体
 /// @param textColor 字体颜色
-+ (instancetype)ls_labelWithFont:(UIFont *)font
++ (instancetype)hs_labelWithFont:(UIFont *)font
                        textColor:(UIColor *)textColor {
     
     UILabel *label = [[self alloc] init];
@@ -25,7 +25,7 @@
 /// @param text 文字
 /// @param font 字体
 /// @param textColor 字体颜色
-+ (instancetype)ls_labelWithText:(NSString *)text
++ (instancetype)hs_labelWithText:(NSString *)text
                             font:(UIFont *)font
                        textColor:(UIColor *)textColor {
     

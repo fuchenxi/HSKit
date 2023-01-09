@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - HSKit (0.1.1):
+  - HSKit (0.1.2):
     - AFNetworking
 
 DEPENDENCIES:
@@ -30,7 +30,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  HSKit: 0aff73af3c2f8d3604b798a7ba61735204465f52
+  HSKit: 08d17a706fc01ee26a06b721734f2f6f0c94e8dd
 
 PODFILE CHECKSUM: bfd5bd934630b5d67a8064ccb6683504eb9b76ad
 
