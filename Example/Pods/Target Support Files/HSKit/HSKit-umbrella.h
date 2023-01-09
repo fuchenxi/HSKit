@@ -17,6 +17,7 @@
 #import "NSObject+HSKitAdd.h"
 #import "UILabel+HSKitAdd.h"
 #import "UINavigationController+HSKitAdd.h"
+#import "HSKitExtensions.h"
 
 FOUNDATION_EXPORT double HSKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char HSKitVersionString[];
