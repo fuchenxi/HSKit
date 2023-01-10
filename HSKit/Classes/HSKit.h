@@ -9,5 +9,6 @@
 #define HSKit_h
 
 #import "HSKitExtensions.h"
+#import "HSKitCommonHeader.h"
 
 #endif /* HSKit_h */

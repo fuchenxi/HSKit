@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HSKit'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of HSKit.'
   
   # This description is used to generate tags and improve search results.
@@ -32,10 +32,23 @@ Pod::Spec.new do |s|
   
   s.source_files = 'HSKit/Classes/**/*'
   
-  # 要是文件有分层 就这样写
-  s.subspec 'Extensions' do |s|
-    s.source_files = 'HSKit/Classes/ObjcKit/Extensions/*.{h,m,swift}'
+  # Objc 相关文件
+  s.subspec 'ObjcKit' do |objc_kit|
+    objc_kit.source_files = 'HSKit/Classes/ObjcKit/**/*'
   end
+  # Swift 相关文件
+  s.subspec 'SwiftKit' do |swift_kit|
+    swift_kit.source_files = 'HSKit/Classes/SwiftKit/**/*'
+    swift_kit.dependency 'SnapKit'
+    swift_kit.dependency 'KakaJSON'
+    swift_kit.dependency 'FSPagerView'
+    swift_kit.dependency 'CHIPageControl'
+    swift_kit.dependency 'MarqueeLabel'
+  end
+  
+  #  s.subspec 'Extensions' do |s|
+  #    s.source_files = 'HSKit/Classes/ObjcKit/Extensions/*.{h,m,swift}'
+  #  end
   
   # s.resource_bundles = {
   #   'HSKit' => ['HSKit/Assets/*.png']
@@ -43,5 +56,10 @@ Pod::Spec.new do |s|
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-#  s.dependency 'AFNetworking'
+  s.dependency 'YYText'
+  s.dependency 'YYModel'
+  # https://zh.dev.appsflyer.com/hc/docs/install-ios-sdk
+  # https://blog.csdn.net/wswile/article/details/126033002
+  # 埋点
+  s.dependency 'AppsFlyerFramework'
 end

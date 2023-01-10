@@ -1,6 +1,6 @@
 {
   "name": "HSKit",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "summary": "A short description of HSKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/fuchenxi/HSKit",
@@ -13,16 +13,48 @@
   },
   "source": {
     "git": "https://github.com/fuchenxi/HSKit.git",
-    "tag": "0.1.4"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "11.0"
   },
   "source_files": "HSKit/Classes/**/*",
+  "dependencies": {
+    "YYText": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "AppsFlyerFramework": [
+
+    ]
+  },
   "subspecs": [
     {
-      "name": "Extensions",
-      "source_files": "HSKit/Classes/ObjcKit/Extensions/*.{h,m,swift}"
+      "name": "ObjcKit",
+      "source_files": "HSKit/Classes/ObjcKit/**/*"
+    },
+    {
+      "name": "SwiftKit",
+      "source_files": "HSKit/Classes/SwiftKit/**/*",
+      "dependencies": {
+        "SnapKit": [
+
+        ],
+        "KakaJSON": [
+
+        ],
+        "FSPagerView": [
+
+        ],
+        "CHIPageControl": [
+
+        ],
+        "MarqueeLabel": [
+
+        ]
+      }
     }
   ]
 }

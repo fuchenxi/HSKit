@@ -2,6 +2,8 @@ use_frameworks!
 
 platform :ios, '11.0'
 
+use_frameworks!
+
 target 'HSKit_Example' do
   pod 'HSKit', :path => '../'
 
@@ -11,4 +13,8 @@ target 'HSKit_Example' do
     pod 'YYText', :git => 'git@github.com:fuchenxi/YYText.git'
     
   end
+end
+
+pre_install do |installer|
+Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}
 end

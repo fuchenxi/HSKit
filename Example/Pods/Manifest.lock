@@ -1,12 +1,63 @@
 PODS:
-  - HSKit (0.1.4):
-    - HSKit/Extensions (= 0.1.4)
-  - HSKit/Extensions (0.1.4)
+  - AppsFlyerFramework (6.9.1):
+    - AppsFlyerFramework/Main (= 6.9.1)
+  - AppsFlyerFramework/Main (6.9.1)
+  - CHIPageControl (0.2):
+    - CHIPageControl/Aji (= 0.2)
+    - CHIPageControl/Aleppo (= 0.2)
+    - CHIPageControl/Chimayo (= 0.2)
+    - CHIPageControl/Fresno (= 0.2)
+    - CHIPageControl/Jalapeno (= 0.2)
+    - CHIPageControl/Jaloro (= 0.2)
+    - CHIPageControl/Paprika (= 0.2)
+    - CHIPageControl/Puya (= 0.2)
+  - CHIPageControl/Aji (0.2)
+  - CHIPageControl/Aleppo (0.2)
+  - CHIPageControl/Chimayo (0.2)
+  - CHIPageControl/Fresno (0.2)
+  - CHIPageControl/Jalapeno (0.2)
+  - CHIPageControl/Jaloro (0.2)
+  - CHIPageControl/Paprika (0.2)
+  - CHIPageControl/Puya (0.2)
+  - FSPagerView (0.8.3)
+  - HSKit (0.1.5):
+    - AppsFlyerFramework
+    - HSKit/ObjcKit (= 0.1.5)
+    - HSKit/SwiftKit (= 0.1.5)
+    - YYModel
+    - YYText
+  - HSKit/ObjcKit (0.1.5):
+    - AppsFlyerFramework
+    - YYModel
+    - YYText
+  - HSKit/SwiftKit (0.1.5):
+    - AppsFlyerFramework
+    - CHIPageControl
+    - FSPagerView
+    - KakaJSON
+    - MarqueeLabel
+    - SnapKit
+    - YYModel
+    - YYText
+  - KakaJSON (1.1.2)
+  - MarqueeLabel (4.3.0)
+  - SnapKit (5.6.0)
+  - YYModel (1.0.4)
   - YYText (1.0.7)
 
 DEPENDENCIES:
   - HSKit (from `../`)
   - "YYText (from `git@github.com:fuchenxi/YYText.git`)"
+
+SPEC REPOS:
+  trunk:
+    - AppsFlyerFramework
+    - CHIPageControl
+    - FSPagerView
+    - KakaJSON
+    - MarqueeLabel
+    - SnapKit
+    - YYModel
 
 EXTERNAL SOURCES:
   HSKit:
@@ -20,9 +71,16 @@ CHECKOUT OPTIONS:
     :git: "git@github.com:fuchenxi/YYText.git"
 
 SPEC CHECKSUMS:
-  HSKit: 093c6bacb6da75fd17335b07111cc9ac0d3df037
+  AppsFlyerFramework: dc9aa675faa8e1a2ed40fb295d3c5408ee2b972a
+  CHIPageControl: a787bf7205c9b7e7fbfc412be36c5e8636b68f86
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  HSKit: 9bea31b4b90a575ade2943cc1b835a5f2256ddbc
+  KakaJSON: cc5ff50a8c1cfbb09413db8496cb709a209e6137
+  MarqueeLabel: 02f5ac8fd6877c94564556cb93fa86c70c08baeb
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 8f772d1e772b7a2858eea39dc10992f441d48d15
+PODFILE CHECKSUM: a41d32d9a8b1d849e3396c8818759d339f734c73
 
 COCOAPODS: 1.11.3
