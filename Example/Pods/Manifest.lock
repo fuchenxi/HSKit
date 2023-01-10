@@ -21,13 +21,9 @@ PODS:
   - CHIPageControl/Puya (0.2)
   - FSPagerView (0.8.3)
   - HSKit (0.1.5):
-    - AppsFlyerFramework
     - HSKit/ObjcKit (= 0.1.5)
     - HSKit/SwiftKit (= 0.1.5)
-    - YYModel
-    - YYText
   - HSKit/ObjcKit (0.1.5):
-    - AppsFlyerFramework
     - YYModel
     - YYText
   - HSKit/SwiftKit (0.1.5):
@@ -67,7 +63,7 @@ SPEC CHECKSUMS:
   AppsFlyerFramework: dc9aa675faa8e1a2ed40fb295d3c5408ee2b972a
   CHIPageControl: a787bf7205c9b7e7fbfc412be36c5e8636b68f86
   FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
-  HSKit: 9bea31b4b90a575ade2943cc1b835a5f2256ddbc
+  HSKit: 177a4d5d349637e844dd3bb8c20ab49f98eb89f3
   KakaJSON: cc5ff50a8c1cfbb09413db8496cb709a209e6137
   MarqueeLabel: 02f5ac8fd6877c94564556cb93fa86c70c08baeb
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25

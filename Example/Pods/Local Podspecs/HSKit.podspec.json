@@ -19,21 +19,18 @@
     "ios": "11.0"
   },
   "source_files": "HSKit/Classes/**/*",
-  "dependencies": {
-    "YYText": [
-
-    ],
-    "YYModel": [
-
-    ],
-    "AppsFlyerFramework": [
-
-    ]
-  },
   "subspecs": [
     {
       "name": "ObjcKit",
-      "source_files": "HSKit/Classes/ObjcKit/**/*"
+      "source_files": "HSKit/Classes/ObjcKit/**/*",
+      "dependencies": {
+        "YYText": [
+
+        ],
+        "YYModel": [
+
+        ]
+      }
     },
     {
       "name": "SwiftKit",
@@ -52,6 +49,15 @@
 
         ],
         "MarqueeLabel": [
+
+        ],
+        "YYText": [
+
+        ],
+        "YYModel": [
+
+        ],
+        "AppsFlyerFramework": [
 
         ]
       }

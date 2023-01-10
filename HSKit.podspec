@@ -35,6 +35,8 @@ Pod::Spec.new do |s|
   # Objc 相关文件
   s.subspec 'ObjcKit' do |objc_kit|
     objc_kit.source_files = 'HSKit/Classes/ObjcKit/**/*'
+    objc_kit.dependency 'YYText'
+    objc_kit.dependency 'YYModel'
   end
   # Swift 相关文件
   s.subspec 'SwiftKit' do |swift_kit|
@@ -44,6 +46,12 @@ Pod::Spec.new do |s|
     swift_kit.dependency 'FSPagerView'
     swift_kit.dependency 'CHIPageControl'
     swift_kit.dependency 'MarqueeLabel'
+    swift_kit.dependency 'YYText'
+    swift_kit.dependency 'YYModel'
+    # https://zh.dev.appsflyer.com/hc/docs/install-ios-sdk
+    # https://blog.csdn.net/wswile/article/details/126033002
+    # 埋点
+    swift_kit.dependency 'AppsFlyerFramework'
   end
   
   #  s.subspec 'Extensions' do |s|
@@ -56,10 +64,7 @@ Pod::Spec.new do |s|
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'YYText'
-  s.dependency 'YYModel'
-  # https://zh.dev.appsflyer.com/hc/docs/install-ios-sdk
-  # https://blog.csdn.net/wswile/article/details/126033002
-  # 埋点
-  s.dependency 'AppsFlyerFramework'
+#  s.dependency 'YYText'
+#  s.dependency 'YYModel'
+#  s.dependency 'AppsFlyerFramework'
 end
