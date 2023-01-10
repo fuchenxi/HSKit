@@ -54,7 +54,8 @@
         "AppsFlyerFramework": [
 
         ]
-      }
+      },
+      "vendored_frameworks": "YYText.framework"
     }
   ]
 }

@@ -52,6 +52,8 @@ Pod::Spec.new do |s|
     # https://blog.csdn.net/wswile/article/details/126033002
     # 埋点
     swift_kit.dependency 'AppsFlyerFramework'
+    swift_kit.vendored_frameworks = 'YYModel.framework'
+    swift_kit.vendored_frameworks = 'YYText.framework'
   end
   
   #  s.subspec 'Extensions' do |s|
