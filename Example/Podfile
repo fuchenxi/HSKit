@@ -10,7 +10,7 @@ target 'HSKit_Example' do
   target 'HSKit_Tests' do
     inherit! :search_paths
 
-    pod 'YYText', :git => 'git@github.com:fuchenxi/YYText.git'
+#    pod 'YYText', :git => 'git@github.com:fuchenxi/YYText.git'
     
   end
 end

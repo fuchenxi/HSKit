@@ -47,7 +47,6 @@ PODS:
 
 DEPENDENCIES:
   - HSKit (from `../`)
-  - "YYText (from `git@github.com:fuchenxi/YYText.git`)"
 
 SPEC REPOS:
   trunk:
@@ -58,17 +57,11 @@ SPEC REPOS:
     - MarqueeLabel
     - SnapKit
     - YYModel
+    - YYText
 
 EXTERNAL SOURCES:
   HSKit:
     :path: "../"
-  YYText:
-    :git: "git@github.com:fuchenxi/YYText.git"
-
-CHECKOUT OPTIONS:
-  YYText:
-    :commit: 6eb687c7cfdf5b6a8e91262c9320ccf07e73b18f
-    :git: "git@github.com:fuchenxi/YYText.git"
 
 SPEC CHECKSUMS:
   AppsFlyerFramework: dc9aa675faa8e1a2ed40fb295d3c5408ee2b972a
@@ -81,6 +74,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: a41d32d9a8b1d849e3396c8818759d339f734c73
+PODFILE CHECKSUM: 969d72f053738ee4e20432ecc465d39b6bce1f79
 
 COCOAPODS: 1.11.3
