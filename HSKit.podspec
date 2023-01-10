@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HSKit'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'A short description of HSKit.'
   
   # This description is used to generate tags and improve search results.
@@ -46,8 +46,8 @@ Pod::Spec.new do |s|
     swift_kit.dependency 'FSPagerView'
     swift_kit.dependency 'CHIPageControl'
     swift_kit.dependency 'MarqueeLabel'
-    swift_kit.dependency 'YYText'
-    swift_kit.dependency 'YYModel'
+#    swift_kit.dependency 'YYText'
+#    swift_kit.dependency 'YYModel'
     # https://zh.dev.appsflyer.com/hc/docs/install-ios-sdk
     # https://blog.csdn.net/wswile/article/details/126033002
     # 埋点

@@ -2,7 +2,8 @@ use_frameworks!
 
 platform :ios, '11.0'
 
-use_modular_headers!
+#use_modular_headers!
+#use_frameworks!
 
 target 'HSKit_Example' do
   pod 'HSKit', :path => '../'
@@ -10,7 +11,8 @@ target 'HSKit_Example' do
   target 'HSKit_Tests' do
     inherit! :search_paths
 
-#    pod 'YYText', :git => 'git@github.com:fuchenxi/YYText.git'
+#    pod 'YYText' :modular_headers => true
+#    pod 'YYModel' :modular_headers => true
     
   end
 end
